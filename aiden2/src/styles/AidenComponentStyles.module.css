@@ -1,0 +1,40 @@
+.aidenComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.aidenInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.aidenOutput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.aidenButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+}
+
+.aidenButton:hover {
+    background-color: #0051a2;
+}
