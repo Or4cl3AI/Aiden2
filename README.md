@@ -28,13 +28,36 @@ Install the dependencies:
 npm install
 ```
 
-Start the development server:
+### Building and Deploying
+
+To build the application, run the following command:
 
 ```
-npm run dev
+npm run build
 ```
+
+This will compile the source code and generate the optimized build files.
+
+To deploy the application, follow the deployment instructions specific to your hosting platform. Make sure to configure any necessary environment variables and settings.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Documentation
+
+For more details, please refer to the following documents in the `docs` directory:
+
+- [Setup Instructions](docs/SetupInstructions.md)
+- [Architectural Overview](docs/ArchitecturalOverview.md)
+- [API Documentation](docs/APIDocumentation.md)
+- [Usage Guidelines](docs/UsageGuidelines.md)
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
 
 ## Documentation
 
