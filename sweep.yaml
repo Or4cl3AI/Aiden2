@@ -10,3 +10,24 @@ gha_enabled: True
 description: ''
 
 # Default Values: https://github.com/sweepai/sweep/blob/main/sweep.yaml
+
+# Build and Deployment Workflow Configuration
+build:
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    - path: build/
+      name: Aiden2
+
+deploy:
+  script:
+    - npm run deploy
+  environment:
+    name: production
+    url: https://example.com
+    credentials:
+      - name: AWS_ACCESS_KEY_ID
+        value: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      - name: AWS_SECRET_ACCESS_KEY
+        value: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
