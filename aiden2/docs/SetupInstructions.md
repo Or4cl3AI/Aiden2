@@ -1,10 +1,14 @@
 # Setup Instructions for Aiden 2
 
+## Setup with Node.js version 12
+
+Ensure you have Node.js version 12 installed on your machine. You can download it from the official Node.js website.
+
 ## Prerequisites
 
 Ensure you have the following installed on your machine:
 
-- Node.js (v14.0.0 or later)
+- Node.js (v12.0.0 or later)
 - npm (v6.0.0 or later)
 
 ## Clone the Repository
