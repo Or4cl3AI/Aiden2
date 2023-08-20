@@ -1,5 +1,5 @@
 import React from 'react';
-import AidenComponent from './components/AidenComponent';
+import AidenComponent from '../components/AidenComponent';
 
 const App: React.FC = () => {
   return (
