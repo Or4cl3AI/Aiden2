@@ -1,4 +1,3 @@
-```typescript
 // AidenUtils.ts
 
 export const formatResponse = (response: any): string => {
@@ -15,4 +14,3 @@ export const handleError = (error: Error): void => {
     // Handle any errors that occur when interacting with Aiden 2
     console.error(`An error occurred: ${error.message}`);
 };
-```

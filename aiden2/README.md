@@ -28,13 +28,15 @@ Install the dependencies:
 npm install
 ```
 
-Start the development server:
+### Development
+
+To start the development server, run the following command:
 
 ```
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the Next.js server and the application will be accessible at `http://localhost:3000`.
 
 ## Documentation
 
@@ -44,6 +46,46 @@ For more details, please refer to the following documents in the `docs` director
 - [Architectural Overview](docs/ArchitecturalOverview.md)
 - [API Documentation](docs/APIDocumentation.md)
 - [Usage Guidelines](docs/UsageGuidelines.md)
+
+### Setup Instructions
+
+To set up the Aiden 2 application, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```
+   git clone https://github.com/yourusername/aiden2.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd aiden2
+   ```
+
+3. Install the dependencies:
+
+   ```
+   npm install
+   ```
+
+### Architectural Overview
+
+Aiden 2 is a modern web application built using Create React App for the front end, Next.js for server-side rendering and routing, and TypeScript for type checking and improved developer experience. This document provides an overview of the architecture of Aiden 2.
+
+For more details, please refer to the [Architectural Overview](docs/ArchitecturalOverview.md) document.
+
+### API Documentation
+
+This document provides a detailed overview of the APIs used in the Aiden 2 application.
+
+For more details, please refer to the [API Documentation](docs/APIDocumentation.md) document.
+
+### Usage Guidelines
+
+This document provides a guide on how to use the Aiden 2 web application.
+
+For more details, please refer to the [Usage Guidelines](docs/UsageGuidelines.md) document.
 
 ## Contributing
 

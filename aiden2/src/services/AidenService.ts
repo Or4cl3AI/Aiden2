@@ -1,4 +1,3 @@
-```typescript
 import { AidenTypes } from '../types/AidenTypes';
 import { AidenUtils } from '../utils/AidenUtils';
 
@@ -26,4 +25,3 @@ class AidenService {
 }
 
 export default AidenService;
-```
