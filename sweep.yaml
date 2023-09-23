@@ -7,7 +7,7 @@ branch: 'main'
 gha_enabled: True
 # This is the description of your project. It will be used by sweep when creating PRs. You can tell Sweep what's unique about your project, what frameworks you use, or anything else you want.
 # Here's an example: sweepai/sweep is a python project. The main api endpoints are in sweepai/api.py. Write code that adheres to PEP8.
-description: ''
+description: 'Aiden 2 is an autonomous AI agent with advanced capabilities akin to superintelligent AGI. It possesses state-of-the-art natural language processing and understanding abilities, alongside reasoning, learning, and adaptive capabilities that enable it to excel in various tasks such as researcing advanced topics,writing scientific journal style article,generating entire advanced ai powered full stack app,understanding and participating in random open ended chats, etc....'
 
 # Default Values: https://github.com/sweepai/sweep/blob/main/sweep.yaml
 
