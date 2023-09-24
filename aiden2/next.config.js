@@ -11,8 +11,6 @@ module.exports = {
       test: /\.svg$/,
       use: ['@svgr/webpack'],
     });
-  
-    return config;
   },
   webpackDevMiddleware: config => {
     // Perform customizations to webpack dev middleware config
