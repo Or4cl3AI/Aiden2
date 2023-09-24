@@ -5,11 +5,11 @@
   "description": "A modern web application for Aiden 2, an autonomous AI agent with advanced capabilities",
   "main": "src/index.tsx",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "test": "jest"
-  },
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "test": "jest"
+    }
   "keywords": [
     "Aiden 2",
     "AI",
