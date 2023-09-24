@@ -32,11 +32,11 @@ npm install
 
 To build the application, run the following command:
 
-```
+```bash
 npm run build
 ```
 
-This will compile the source code and generate the optimized build files.
+This command will compile the source code and generate the optimized build files.
 
 To deploy the application, follow the deployment instructions specific to your hosting platform. Make sure to configure any necessary environment variables and settings.
 
